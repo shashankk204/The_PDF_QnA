@@ -1,0 +1,11 @@
+python-dotenv
+langchain-google-genai
+langsmith
+langchain-community
+langchain-core
+langgraph
+streamlit
+pypdf
+PyPDF2
+chromadb
+langchain_chroma

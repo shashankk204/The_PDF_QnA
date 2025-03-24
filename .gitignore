@@ -1,0 +1,6 @@
+py_modules
+.env
+test.ipynb
+test.py
+db
+__pycache__
