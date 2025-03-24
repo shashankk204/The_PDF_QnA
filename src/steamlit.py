@@ -7,7 +7,7 @@ def app():
 
     
     st.set_page_config(page_title="Chatbot", layout="centered")
-    st.title(" PDF SUMMERIZER",)
+    st.title(" THE PDF QnA",)
     pdf=st.file_uploader(label="Upload your PDF file:",accept_multiple_files=False,type=["pdf"])
 
 
@@ -67,6 +67,12 @@ def app():
             #     st.write(response)
             
             st.rerun()    
+    else:
+        st.session_state["messages"] = [
+                    {"role": "assistant", "content": "Hello! How can I help you today?"}
+                ]
+        
+
 
 
 
